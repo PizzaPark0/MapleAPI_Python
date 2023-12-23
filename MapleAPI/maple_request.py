@@ -82,5 +82,5 @@ if __name__=="__main__":
     f.close()
     a = MapleAPI_Viewer(apiKey)
 
-    x = a.getCharOcid("깜시랑")
+    x = a.getCharOcid("이름")
     print(x)
