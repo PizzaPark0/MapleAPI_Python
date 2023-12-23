@@ -1,6 +1,6 @@
 import requests
 
-class MapleAPI_Viewer:
+class MapleAPI:
     def __init__(self, api_key):
         self.key = api_key
 
