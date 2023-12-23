@@ -1,4 +1,4 @@
-import maple_request
+import mapleAPI
 import time
 
 with open("set.txt", "r") as f:
