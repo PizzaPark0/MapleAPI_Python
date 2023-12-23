@@ -1,10 +1,10 @@
-import mapleAPI
+import MapleAPI
 import time
 
 with open("set.txt", "r") as f:
     apiKey = f.readline().split(':')[1].strip()
 
-viewer = mapleAPI.MapleAPI(apiKey)
+viewer = MapleAPI.MapleAPI(apiKey)
 oGuildId = viewer.getOguildId("길드명", "서버명")
 guildMembers = viewer.getGuildData(oGuildId, "2023-12-22", "basic").get("guild_member")
 guildMembers_ocid = [  ]
